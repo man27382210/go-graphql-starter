@@ -1,6 +1,6 @@
 # Gopkg.toml example
 #
-# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# Refer to https://golang.github.io/dep/docs/Gopkg.toml.html
 # for detailed Gopkg.toml documentation.
 #
 # required = ["github.com/user/thing/cmd/thing"]
@@ -23,23 +23,23 @@
 #   non-go = false
 #   go-tests = true
 #   unused-packages = true
-required = ["github.com/jteeuwen/go-bindata"]
+
 
 [[constraint]]
   name = "github.com/dgrijalva/jwt-go"
-  version = "3.1.0"
+  version = "3.2.0"
 
 [[constraint]]
   branch = "master"
   name = "github.com/graph-gophers/graphql-go"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/jmoiron/sqlx"
+  version = "1.2.0"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/lib/pq"
+  version = "1.0.0"
 
 [[constraint]]
   name = "github.com/op/go-logging"
@@ -47,11 +47,11 @@ required = ["github.com/jteeuwen/go-bindata"]
 
 [[constraint]]
   name = "github.com/rs/xid"
-  version = "1.1.0"
+  version = "1.2.1"
 
 [[constraint]]
   name = "github.com/spf13/viper"
-  revision = "master"
+  version = "1.2.1"
 
 [[constraint]]
   branch = "master"
